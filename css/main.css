@@ -76,8 +76,20 @@ a[href$=".tar.gz"]:before {
 
 /* Media files */
 
-a[href$=".m2ts"]:before {
+a[href$=".m2ts"]:before,
+a[href$=".avi"]:before,
+a[href$=".mkv"]:before,
+a[href$=".mp4"]:before {
     background: url(../images/icons/movie.png);
+}
+
+a[href$=".mp3"]:before,
+a[href$=".m4a"]:before,
+a[href$=".wav"]:before,
+a[href$=".ogg"]:before,
+a[href$=".opus"]:before,
+a[href$=".flac"]:before {
+    background: url(../images/icons/music.png);
 }
 
 /* Vagrant */
