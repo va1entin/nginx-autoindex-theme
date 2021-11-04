@@ -1,20 +1,20 @@
 body {
     margin: 1em;
-    background-color: #f34141;
+    background-color: #2e2d2d;
+    color: #e2e2e2;
 }
 
 a {
-    color: #666;
+    color: #e2e2e2;
     text-decoration: none;
 }
 
 a:hover {
-    color: #333;
+    color: #cbcbcb;
 }
 
 h1 {
     padding: 1em;
-    color: #666;
     font-size: 100%;
 }
 
@@ -28,13 +28,8 @@ pre {
     line-height: 2em;
 }
 
-footer {
-    margin: 1em;
-}
-
 .container {
     overflow: hidden;
-    background-color: #fff;
     border-radius: 10px;
 }
 
