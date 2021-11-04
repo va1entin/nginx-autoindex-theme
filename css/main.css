@@ -74,6 +74,12 @@ a[href$=".tar.gz"]:before {
    background: url(../images/icons/tar.gz.png);
 }
 
+/* Media files */
+
+a[href$=".m2ts"]:before {
+    background: url(../images/icons/movie.png);
+}
+
 /* Vagrant */
 
 a[href$=".box"]:before {
