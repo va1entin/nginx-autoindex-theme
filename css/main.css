@@ -1,6 +1,8 @@
 body {
     /* background-color: #161616; re-enable and disable background-image for plain dark background */
     background-image: url("/.background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #e2e2e2;
 }
 
